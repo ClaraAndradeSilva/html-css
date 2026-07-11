@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{ min-height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;}
+
+  body{ background-image: linear-gradient(to top, #cdb4db, #eedee4, 
+    #eec3d3, #cee1f1, #a2d2ff);}
+
+    main{ 
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 5px 5px 15px #43c3d46c;
+      width: 750px;
+      padding: 10px;
+      margin: auto;}
+
+    h1 { 
+      color: #c68fe6;
+      text-align: center;
+      text-shadow: 1px 1px 2px #ab49e4bd; }
+    h2{ color: rgba(82, 152, 212, 0.788);}
+    
+  p{ text-align: justify;}

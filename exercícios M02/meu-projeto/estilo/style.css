@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Noto+Serif+NP+Hmong:wght@400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  } 
+
+:root {
+  --cor0: #fbf9f4;
+  --cor1: ##181919
+}
+
+.header-site 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: var(--cor0);
+}
+
+.logo-texto 
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.35em;
+}
+.nav-links {
+  display: flex;
+  gap: 28px;
+}

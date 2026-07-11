@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+  background-color: lightsalmon;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: brown;
+}
+#principal {
+  text-align: center;
+  background-color: wheat;
+}
+h2 {
+  color: blue;
+}
+
+.basico{ color: blueviolet;}
+.imtermediario { color: crimson;}
+.avancado{ color: darkblue;}
