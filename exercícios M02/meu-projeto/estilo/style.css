@@ -9,11 +9,15 @@
 
 :root {
   --cor0: #fbf9f4;
-  --cor1: ##181919
+  --cor1: #181919;
+  --cor3: #57684e;
 }
 
-.header-site 
-{
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-site {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,8 +25,7 @@
   background-color: var(--cor0);
 }
 
-.logo-texto 
-{
+.logo-texto {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.35em;
 }
@@ -30,3 +33,27 @@
   display: flex;
   gap: 28px;
 }
+
+footer {
+  background-color: #FBF9F4;
+   display: flex;  
+   justify-content: space-between;
+   align-items: center;
+  padding: 40px 24px 40px 24px; 
+}
+
+footer #title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+ footer a  {
+  text-decoration: none;
+  color: #57684e;
+
+ }
+
+ footer #direitos-autorais {
+  color: #57684e;
+  font-size: 0.8em;
+ }
