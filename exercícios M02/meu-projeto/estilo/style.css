@@ -15,37 +15,50 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
 }
 
-.header-site {
+.cabecario {
+  background-color: var(--cor0);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: var(--cor0);
+  border-bottom: 1px solid rgba(187, 185, 185, 0.432);
 }
 
-.logo-texto {
+.title {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.35em;
 }
-.nav-links {
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #57684e; 
+}
+
+ .nav-links {
   display: flex;
   gap: 28px;
-}
+ }
 
 footer {
   background-color: #FBF9F4;
+  border-top: 1px solid rgba(187, 185, 185, 0.432);
    display: flex;  
    justify-content: space-between;
    align-items: center;
   padding: 40px 24px 40px 24px; 
 }
 
-footer #title {
+ footer .title {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 600;
-}
+ }
 
  footer a  {
   text-decoration: none;
