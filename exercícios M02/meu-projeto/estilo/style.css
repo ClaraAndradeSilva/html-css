@@ -9,6 +9,7 @@
 
 :root {
   --cor0: #fbf9f4;
+    --cor2: #FAFDF5;
   --cor1: #181919;
   --cor3: #57684e;
 }
@@ -16,9 +17,10 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: justify;
+  background-color: #FAFDF5;
 }
 
-.cabecario {
+header {
   background-color: var(--cor0);
   display: flex;
   justify-content: space-between;
@@ -27,26 +29,49 @@ body {
   border-bottom: 1px solid rgba(187, 185, 185, 0.432);
 }
 
-.title {
+ header > h1, footer > p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.35em;
-}
+ }
 
-
-
-h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-nav > a {
-  text-decoration: none;
-  color: #57684e; 
+  nav > a {
+   text-decoration: none;
+   color: #57684e; 
 }
 
  .nav-links {
   display: flex;
   gap: 28px;
  }
+
+ aside#um {
+  background-color: #F8F1CB;
+  border-radius: 25px;
+  width: 260px;
+  padding: 10px;
+  margin: 30px 25px;
+ }
+ .title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3em;
+  margin: 30px;
+ }
+
+#primeiro-p {
+  color: #57684e;
+  font-size: 1.3em;
+  margin: 30px;
+}
+
+.botão {
+  color: white;
+  background-color: #2D7A22;
+  border-radius: 15px;
+  text-align: center;
+  width: 170px;
+  padding: 14px;
+  margin: 30px;
+}
 
 .caixa-final {
   background-color: #2D7A22;
