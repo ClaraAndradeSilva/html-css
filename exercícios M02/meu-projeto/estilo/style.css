@@ -33,7 +33,10 @@ header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.35em;
  }
-
+  h1 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #1b1b1b;
+}
   nav > a {
    text-decoration: none;
    color: #57684e; 
@@ -43,13 +46,18 @@ header {
   display: flex;
   gap: 28px;
  }
+.link {
+  text-decoration: none;
 
+}                                     /* PRIMEIRA CAIXA */
  aside#um {
   background-color: #F8F1CB;
   border-radius: 25px;
-  width: 260px;
-  padding: 10px;
-  margin: 30px 25px;
+  font-weight: 500;
+  font-size: 0.9em;
+   width: 240px;
+   padding: 10px;
+   margin: 30px 25px;
  }
  .title {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -72,17 +80,77 @@ header {
   padding: 14px;
   margin: 30px;
 }
-
-.caixa-final {
-  background-color: #2D7A22;
-  color: white;
-  display: flow-root;
-  padding: 50px 20px 50px 20px;
-  margin: 20px;
-  border-radius: 10px;
-  
+                                    /* TERCEIRA CAIXA */
+section.caixa3 {
+  background-color: #EEF7E8;
+  height: 600px;
 }
 
+.destaque-p {
+  color: #2D7A22;
+  text-align: center;
+  font-weight: 600;
+   padding-top: 100px;
+   padding-bottom: 20px;
+}
+
+.destaque-h {
+  text-align: center;
+  font-size: 3em;
+  color: #1b1b1b;
+}
+                                     /* QUARTA CAIXA */
+.destaque2-p {
+  color: #2D7A22;
+  font-weight: 600;
+   padding-top: 100px;
+   padding-bottom: 20px;
+   margin-left: 30px;
+}
+
+.destaque2-h {
+  font-size: 3em;
+  color: #1b1b1b;
+  margin-left: 30px;
+}
+                                    /* CAIXA FINAL */
+
+.caixa-final {
+  color: white;
+  background-color: #2D7A22;
+  border-radius: 50px;
+  display: flow-root;
+  height: 500px;
+  margin: 50px;
+}
+.destaque-final-h {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+   padding-top: 150px;
+}
+
+.destaque-final-p {
+  color: rgb(211, 209, 209);
+  font-size: 1.3em;
+  text-align: center;
+   padding-top: 15px;
+}
+
+.botao-final {
+  background-color: #F0C325;
+  color: #1b1b1b;
+  border-radius: 40px;
+   width: 200px; 
+   margin: 40px auto;
+   padding: 20px 25px;
+
+}
+.final-p {
+  text-align: center;
+  color: #1b1b1b;
+  font-size: 600;
+}
 footer {
   background-color: #FBF9F4;
   border-top: 1px solid rgba(187, 185, 185, 0.432);
