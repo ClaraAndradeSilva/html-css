@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+table {
+  border-collapse: collapse;
+}
+
+th{
+  color: white;
+  background-color: dimgrey;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th.sem-cor {
+  color: black;
+  background-color: white;
+}
+
+.sem-centralizar {
+  text-align: left;
+}
+
+td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
